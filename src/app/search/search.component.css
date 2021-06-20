@@ -1,0 +1,41 @@
+.padding {
+    padding: 10rem !important
+}
+
+body {
+    background-color: #f8fafe
+}
+
+.domain-form .form-group {
+    border: 2px solid #ffcc99;
+    padding: 20px
+}
+
+.domain-form .form-group input {
+    height: 70px !important;
+    border: transparent
+}
+
+.form-control {
+    height: 52px !important;
+    background: #fff !important;
+    color: #3a4348 !important;
+    font-size: 18px;
+    border-radius: 0px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+.px-4 {
+    padding-left: 1.5rem !important
+}
+
+.domain-form .form-group .search-domain {
+    background: #ff8000;
+    border: 2px solid #ff8000;
+    color: #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0
+}

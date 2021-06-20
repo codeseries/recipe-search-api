@@ -1,0 +1,13 @@
+<body>
+<div class="row justify-content-center padding">
+    <div class="col-md-8 ftco-animate fadeInUp ftco-animated">
+        <form [formGroup]="searchForm" (ngSubmit)="fetchResult()" class="domain-form">
+            <div class="form-group d-md-flex">
+                <input type="text" class="form-control px-4" formControlName="foodname" placeholder="Enter your favourite dish here...">
+                <input type="submit" [disabled]="!searchForm.valid" class="search-domain btn btn-primary px-5" value="Search Domain">
+            </div>
+        </form>
+        
+    </div>
+</div>
+</body>
